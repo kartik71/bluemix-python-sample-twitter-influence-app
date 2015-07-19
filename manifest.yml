@@ -5,7 +5,7 @@ declared-services:
     plan: Shared 
     
 applications:
-- name: TwitterInfluenceAnalyzerPython
+- name: TwitterInfluenceAnalyzerKartik
   buildpack: https://github.com/heroku/heroku-buildpack-python.git
   memory: 256M
   instances: 1
